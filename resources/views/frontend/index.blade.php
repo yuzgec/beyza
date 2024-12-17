@@ -33,7 +33,7 @@
                 <hr class="solid my-4 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1100" style="animation-delay: 900ms;">
                 <div class="row align-items-center appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1200" style="animation-delay: 1000ms;">
                     <div class="col-lg-6">
-                        <a href="{{ route('service') }}" class="btn btn-modern btn-dark mt-3">Çalışma Alanlarım</a>
+                        <a href="{{ route('service') }}" class="btn btn-modern btn-dark mt-3">Çalışma Alanlarımız</a>
                         <a href="{{ route('contactus') }}" class="btn btn-modern btn-primary mt-3">İletişime Geç</a>
                     </div>
                     <div class="col-sm-6 text-lg-end my-4 my-lg-0">

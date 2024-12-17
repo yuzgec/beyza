@@ -4,7 +4,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8 order-2 order-md-1 align-self-center p-static">
-                <h1 class="text-color-dark font-weight-bold">İletişim</h1>
+                <h1 class="text-color-dark font-weight-bold">{{ config('settings.siteTitle')}}</h1>
             </div>
             <div class="col-md-4 order-1 order-md-2 align-self-center">
                 <ul class="breadcrumb d-flex justify-content-md-end text-3-5">

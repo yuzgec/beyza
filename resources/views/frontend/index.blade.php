@@ -1,7 +1,7 @@
 @extends('frontend.layout.app')
 @section('content')
     @include('frontend.layout.slider')
-    <div class="container pt-5 mt-5">
+    <div class="container pt-5">
         <div class="row py-4 mb-2">
             <div class="col-md-7 order-2">
                 <div class="overflow-hidden">
@@ -70,7 +70,7 @@
 
                     <span class="thumb-info thumb-info-no-borders thumb-info-no-borders-rounded thumb-info-lighten thumb-info-bottom-info thumb-info-bottom-info-dark thumb-info-bottom-info-show-more thumb-info-no-zoom">
                         <span class="thumb-info-wrapper">
-                            <img src="{{ (!$item->getFirstMediaUrl('page')) ? '/resimyok.jpg' : $item->getFirstMediaUrl('page', 'thumb') }}" class="img-fluid" alt="Psyche Psikoloji Kliniği - {{ $item->title }}">
+                            <img src="{{ (!$item->getFirstMediaUrl('page')) ? '/resimyok.jpg' : $item->getFirstMediaUrl('page', 'thumb') }}" class="img-fluid" alt="Eskişehir Psyche Psikoloji Kliniği - {{ $item->title }}">
                             <span class="thumb-info-title">
                                 <span class="thumb-info-inner line-height-1">{{ $item->title }}</span>
                             </span>

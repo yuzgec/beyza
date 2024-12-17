@@ -39,9 +39,9 @@
                         <div class="card-body z-index-1 py-4 my-3">
                             <h2 class="text-color-dark font-weight-bold text-6 mb-4">Hizmetlerimiz</h2>
                             <ul class="custom-nav-list-effect-1 list list-unstyled mb-0">
-                                @foreach($Service as $item)
+                                @foreach($Service->where('category', $Detail->getCategory->id) as $item)
                                 <li>
-                                    <a  class="text-decoration-none text-color-dark text-color-hover-primary text-3-5" href="{{ route('servicedetail' , $item->slug)}}" title="{{ $item->title }}">
+                                    <a class="text-decoration-none text-color-dark text-color-hover-primary text-3-5" href="{{ route('servicedetail' , $item->slug)}}" title="{{ $item->title }}">
                                         <i class="icon-arrow-right icons"></i> {{ $item->title }}
                                     </a>
                                 </li>

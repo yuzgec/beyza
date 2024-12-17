@@ -5,7 +5,7 @@
         <div class="row mt-3">
             <div class="col-md-8 order-2 order-md-1 align-self-center p-static">
                 <h1 class="text-color-dark font-weight-bold">{{ $Detail->title }}</h1>
-                <span class="d-block text-4">Eskişehir {{ config('settings.siteTitle')}}</span>
+                <span class="d-block text-4">{{ config('settings.siteTitle')}}</span>
             </div>
             <div class="col-md-4 order-1 order-md-2 align-self-center">
                 <ul class="breadcrumb d-flex justify-content-md-end text-3-5">
@@ -40,7 +40,7 @@
             <hr class="mt-1 align-items-center appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1200" style="animation-delay: 1000ms;">
     
             <div class="lead appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700" style="animation-delay: 700ms;">
-                {!! $Detail->desc!!}
+                <div class="text-2">{!! $Detail->desc!!}</div> 
             </div>
 
            

@@ -14,11 +14,11 @@
                     <h1 class="font-weight-bold text-color-grey text-4-5 line-height-2 line-height-sm-7 mb-0 appear-animation"
                         data-appear-animation="maskUp" 
                         data-appear-animation-delay="800">
-                        Eskişehir Psyche Psikoloji Kliniği
+                        {{config('settings.siteTitle')}}
                     </h1>
                 </div>
                 <h2 class="text-color-dark font-weight-bold text-8 pb-2 mb-2 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1100">
-                    Kendinizi Daha İyi Hissetmeniz İçin Buradayız
+                    {{config('settings.siteSlogan')}}
                 </h2>
                 <p class="text-color-dark font-weight-normal text-3 pb-2 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1400">
                     Hayatın zorlukları, bazen duygusal ve psikolojik yükler getirebilir. 

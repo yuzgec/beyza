@@ -1,10 +1,9 @@
 <footer id="footer" class="border-0">
-       
     <div class="container pb-5 pt-3">
         <div class="row text-center text-md-start py-4 my-5">
             <div class="col-md-6 col-lg-3 align-self-center text-center text-md-start text-lg-center mb-5 mb-lg-0">
-                <a href="{{ route('home')}}" class="text-decoration-none">
-                    <img src="/logobb.png" class="img-fluid" alt="Eskişehir Psikoloji Klliiniği" width="200px"/>
+                <a href="{{ route('home')}}" class="text-decoration-none" title="Eskişehir Psikoloji Kliniği">
+                    <img src="/logobb.png" class="img-fluid" alt="Eskişehir Psikoloji Kliniği" width="200px"/>
                 </a>
             </div>
             <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
@@ -53,8 +52,9 @@
             <div class="col-md-6 col-lg-2 offset-lg-1">
                 <h5 class="text-transform-none font-weight-bold text-color-light text-4-5 mb-4">Mesai Saatleri</h5>
                 <ul class="list list-unstyled list-inline custom-list-style-1 mb-0">
-                    <li>Pazartesi - Cuma = 10:00 - 22:00</li>
-                    <li>Cumartesi : 10:00 - 22:00</li>
+                    <li>Pazartesi - Cuma = 09:00 - 19:00</li>
+                    <li>Cumartesi = 09:00 - 19:00</li>
+                    <li>Pazar :  Kapalı</li>
                 </ul>
             </div>
         </div>

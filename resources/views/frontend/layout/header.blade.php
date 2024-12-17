@@ -16,7 +16,7 @@
                                     </li>
                                     <li class="nav-item d-none d-sm-block nav-item-left-border nav-item-left-border-remove nav-item-left-border-sm-show">
                                         <span class="d-flex align-items-center font-weight-medium text-color-dark ws-nowrap text-3">
-                                            <i class="icons icon-clock font-weight-bold position-relative text-3 top-1 me-2"></i> Çalışma Saatleri : 10:00 - 22:00
+                                            <i class="icons icon-clock font-weight-bold position-relative text-3 top-1 me-2"></i> Çalışma Saatleri : 09:00 - 19:00
                                         </span>
                                     </li>
                                 </ul>

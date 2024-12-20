@@ -81,7 +81,6 @@ class HomeController extends Controller
 
         $Blog = Blog::all();
 
-
         return view('frontend.blog.index', compact('Blog'));
     }
 

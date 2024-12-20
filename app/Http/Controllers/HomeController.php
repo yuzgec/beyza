@@ -15,7 +15,7 @@ class HomeController extends Controller
 {
 
     public function index(){
-        SEOMeta::setTitle('Eskişehir Psyche Psikoloji Kliniği');
+        SEOMeta::setTitle('');
         SEOMeta::setDescription("");
         SEOMeta::setCanonical(url()->full());
 
@@ -25,7 +25,7 @@ class HomeController extends Controller
 
     public function contact(){
 
-        SEOMeta::setTitle('Eskişehir Odunpazarı - Psyche Psikoloji Kliniği');
+        SEOMeta::setTitle('İletişim');
         SEOMeta::setDescription("");
         SEOMeta::setCanonical(url()->full());
         return view('frontend.contact');
@@ -34,7 +34,7 @@ class HomeController extends Controller
     public function servicedetail($url){
         $Detail = Service::where('slug', $url)->firstOrFail();
 
-        SEOMeta::setTitle($Detail->title. ' | Eskişehir Psyche Psikoloji Kliniği');
+        SEOMeta::setTitle($Detail->title);
         SEOMeta::setDescription("");
         SEOMeta::setCanonical(url()->full());
 
@@ -53,7 +53,7 @@ class HomeController extends Controller
     public function blogdetail($url){
         $Detail = Blog::where('slug', $url)->firstOrFail();
 
-        SEOMeta::setTitle($Detail->title. ' | Eskişehir Psyche Psikoloji Kliniği');
+        SEOMeta::setTitle($Detail->title);
         SEOMeta::setDescription("");
         SEOMeta::setCanonical(url()->full());
 
@@ -65,7 +65,7 @@ class HomeController extends Controller
     public function corporatedetail($url){
         $Detail = Page::where('slug', $url)->firstOrFail();
 
-        SEOMeta::setTitle($Detail->title. ' | Eskişehir Psyche Psikoloji Kliniği');
+        SEOMeta::setTitle($Detail->title);
         SEOMeta::setDescription("");
         SEOMeta::setCanonical(url()->full());
 
@@ -75,7 +75,7 @@ class HomeController extends Controller
 
     public function blog(){
 
-        SEOMeta::setTitle('Makaleler - Eskişehir Psyche Psikoloji Kliniği');
+        SEOMeta::setTitle('Makaleler');
         SEOMeta::setDescription("");
         SEOMeta::setCanonical(url()->full());
 
@@ -88,7 +88,7 @@ class HomeController extends Controller
 
     public function team(){
 
-        SEOMeta::setTitle('Ekibimiz - Eskişehir Psyche Psikoloji Kliniği');
+        SEOMeta::setTitle('Ekibimiz');
         SEOMeta::setDescription("");
         SEOMeta::setCanonical(url()->full());
 
@@ -105,7 +105,7 @@ class HomeController extends Controller
 
     public function video(){
 
-        SEOMeta::setTitle('Video Galeri | Eskişehir Psyche Psikoloji Kliniği');
+        SEOMeta::setTitle('Video Galeri');
         SEOMeta::setDescription('');
         SEOMeta::setCanonical(url()->full());
 

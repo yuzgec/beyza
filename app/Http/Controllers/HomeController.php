@@ -15,7 +15,7 @@ class HomeController extends Controller
 {
 
     public function index(){
-        SEOMeta::setTitle('');
+        SEOMeta::setTitle('Psyche Psikoloji Kliniği');
         SEOMeta::setDescription("");
         SEOMeta::setCanonical(url()->full());
 
@@ -43,7 +43,7 @@ class HomeController extends Controller
 
     public function service(){
 
-        SEOMeta::setTitle('Eskişehir Psyche Psikoloji Kliniği');
+        SEOMeta::setTitle('Çalışma Alanlarımız');
         SEOMeta::setDescription("");
         SEOMeta::setCanonical(url()->full());
 

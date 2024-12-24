@@ -9,7 +9,7 @@ return [
          * The default configurations to be used by the meta generator.
          */
         'defaults'       => [
-            'title'        => "Eskişehir Odunpazarı Psikoloji Kliniği", // set false to total remove
+            'title'        => "Eskişehir Odunpazarı Psikolog Kliniği", // set false to total remove
             'titleBefore'  => false, // Put defaults.title before page title, like 'Eskişehir Psyche Psikoloji Kliniği - Dashboard'
             'description'  => 'Psyche Psikoloji Eskişehir Odunpazarında uzman psikolog ve psikodiyet alanlarında hizmet vermektedir.  ', // set false to total remove
             'separator'    => ' - ',
